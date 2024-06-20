@@ -18,7 +18,7 @@ A collection of utilities related to Importing Source assets into unity via the 
 - Advanced settings section to allow selecting custom shader
 - Improved name detection for texture assignment
 
-### How to install and use:
+# How to install and use:
 
 - Clone repository and copy its contents into *Assets/Editor* in your unity project.
 - Wait for everything to compile. After it's done you should have a new Element on your Toolbar:

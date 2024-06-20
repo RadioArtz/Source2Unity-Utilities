@@ -79,11 +79,14 @@ public class Source2UnityMatFixer : EditorWindow
 				EditorGUILayout.ObjectField(material, typeof(Material), true);
 			}
 		}
-		if (GUILayout.Button("Clear Failed Materials List"))
+		if(failedMaterials.Count > 0)
 		{
-			if (EditorUtility.DisplayDialog("Confirm Action", "Really Clear the Failed Materials List?", "Yes", "No"))
+			if (GUILayout.Button("Clear Failed Materials List"))
 			{
-				failedMaterials.Clear();
+				if (EditorUtility.DisplayDialog("Confirm Action", "Really Clear the Failed Materials List?", "Yes", "No"))
+				{
+					failedMaterials.Clear();
+				}
 			}
 		}
 	}

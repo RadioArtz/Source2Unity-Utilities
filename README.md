@@ -24,7 +24,7 @@ A collection of utilities related to Importing Source assets into unity via the 
 - Wait for everything to compile. After it's done you should have a new Element on your Toolbar:
 ![image](https://github.com/RadioArtz/Source2Unity-Utilities/assets/54477532/2428b549-5afa-436b-ba34-24e1bb75c092)
 
-- Select all Materials and drag them onto the empty materials section, same for textures
+- Select all Materials and drag them onto the empty materials section, same for textures (to clear, just type in "0" on the counter next to it)
 
 ![Source2Unity matfixer instructions](https://github.com/RadioArtz/Source2Unity-Utilities/assets/54477532/997d773c-e7e8-4ee1-8df8-d477e915cd4a)
 

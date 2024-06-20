@@ -17,6 +17,7 @@ A collection of utilities related to Importing Source assets into unity via the 
 - Advanced settings section to allow configuring of suffixes and other naming patterns
 - Advanced settings section to allow selecting custom shader
 - Improved name detection for texture assignment
+- General code cleanup
 
 # How to install and use:
 
